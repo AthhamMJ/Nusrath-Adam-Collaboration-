@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        font-family: Arial;
+        color: aliceblue;
+    }
+    body{
+        background-image: url(R.jpeg);
+        background-size: cover;
+        margin: 0;
+    }
+    nav{
+        display: flex;
+        background: rgba(0,0,0,0.5);
+        justify-content: space-between;
+        align-items: center;
+    }
+    a{
+        color: aliceblue;
+        margin: 20px;
+        text-decoration: none;
+    }
+    .button{
+        background-color: rgb(31, 145, 0);
+        color: aliceblue;
+        height: 30px;
+        width: 120px;
+        border-radius: 12px;
+        border: none;
+        margin-right: 10px;
+    }
+    a.pill{
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+
+        background-color: rgb(31, 145, 0);
+        color: aliceblue;
+        width: 120px;
+        height: 30px;
+        border-radius: 12px;
+        text-decoration: none;
+        margin-right: 10px;
+    }
+    h4{
+        color: aliceblue;
+        margin-left: 10px;
+        font-size: 20px;
+    }
+    h1{
+        font-size: 70px;
+        position: relative;
+        top: 220px;
+        left: 20px;
+    }
+    .contend{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+    }
+</style>
+<body>
+    <nav>
+        <div><h4>HomeLand</h4></div>
+        <div>
+        <a>home</a>
+        <a>service</a>
+        <a class="pill">contact us</a>
+        <a>explore</a>
+        </div>
+        <button class="button">SignUp</button>
+    </nav>
+    <div>
+        <h1>Explore around <br>the World</h1>
+    </div>
+</body>
+</html>
