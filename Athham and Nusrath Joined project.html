@@ -4,84 +4,88 @@
     <title>Nusrath_MR & Athham_MJ</title>
 </head>
     <style>
-        body{
-            background-color: black;
+        *{
+            margin: 0;
+            padding: 0;
         }
-        nav{
-            color: white;
-            background-color: transparent;
-            border-color: rgba(255, 255, 255, 0.5);
-            height: max-content;
-            width: 500px;
-            height: 30px;
-            font-family: poppins;
-            text-align: center;
-
-            outline: none;
-            border-radius: 18px;
-            backdrop-filter: blur(28px);
-            -webkit-backdrop-filter: blur(28px);
-
-            box-shadow:
-                inset 0 2px 4px rgba(255,255,255,0.5),
-                inset 0 -2px 4px rgba(0,0,0,0.03);
+        body{
+            background-color: rgb(18, 29, 122);
+            font-family: poppins
         }
         .nav{
             display: flex;
-            color: white;
-            padding: 10px;
-        }
 
-        .name{
-            flex:1;
+            color: white;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0px 20px;
+
+            background-color: rgba(0, 0, 0, 0.5);
+            height: 100px;
+            border-bottom-left-radius: 28px;
+            border-bottom-right-radius: 28px;
+            
         }
 
         a{
             color: white;
             text-decoration: none;
+            font-size: samll;
+            padding: 0px 50px;
+
         }
 
         .joinus{
             background-color: lightskyblue;
-            height: 25px;
-            width: 80px;
+            height: fit-content;
+            width: 100px;
+            border: none;
+
+            padding: 10px;
             text-align: center;
-            border-radius: 5px;
+            border-radius: 18px;
         }
 
+        .fieldset-contend{
+            display: flex;
+            justify-content: center;    
+        }
         fieldset{
             border: 1px solid light skyblue;
             border-radius: 50px; 
             height: 500px;
             width: 500px; 
             margin-top: 70px;
-            padding: 50px;    
+            padding: 50px;
         }
-
-        .text{
+        .head-contend, .text-contend{
+            text-align: center;
             color: white;
-            text-align: left;
-
         }
+
         
     </style>
 </head>
-<body style="background-color: darkblue; font-family: poppins;">
+<body>
 
     <div class="nav">
-        <div style="flex: 3;"><b>nusrath mr & athham mj</b></div>
-        <div class="name"><a href="#about">About us</a></div>
-        <div class="name"><a href="#Vission">Vission</a></div>
-        <div style="flex: 6;"><a href="#Roadmap">Roadmap</a></div>
-        <div class="joinus" ><a href="">Join us</a></div>
+        <b>nusrath mr & athham mj</b>
+        
+        <div>
+            <a href="#about">About us</a>
+            <a href="#Vission">Vission</a>
+            <a href="#Roadmap">Roadmap</a>
+        </div>
+    
+        <button class="joinus">Join us</a>
+    </div>
+    <div class="fieldset-contend">
+        <fieldset>
+            <h2 class="head-contend">Athham_MJ & Nusrath_MR</h2><br><br>
+            <p class="text-contend">We both are Full stack developers. <br>Trained by Uki (Dream space)</p>
+        </fieldset>
     </div>
 
-    <center>
-        <fieldset>
-            <h2 class="text">Athham_MJ & Nusrath_MR</h2>
-            <div class="text">We both are Full stack developers. <br>Trained by Uki (Dream space)</div>
-        </fieldset>
-    </center>
     
 </body>
 </html>
