@@ -4,7 +4,7 @@ A modern, responsive landing page built using **HTML** and **CSS**. This project
 
 ##  Live Demo
 
-https://your-username.github.io/your-repository-name/
+https://athhammj.github.io/Nusrath-Adam-Collaboration-/
 
 ##  Features
 
